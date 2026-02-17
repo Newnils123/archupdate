@@ -1,6 +1,6 @@
 function upd --description "Full system update + cleanup (pacman, AUR, flatpak)"
 
-    echo "update official paquets"
+    echo "update official packages"
     sudo pacman -Syu --noconfirm
 
     if type -q yay
